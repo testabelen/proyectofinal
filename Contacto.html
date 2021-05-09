@@ -71,20 +71,24 @@
         <form action= "#" method="GET" enctype="multipart/form-data"> 
             <fieldset class="form">
                 <legend><h3><i class="fas fa-pen"></i>Formulario de Contacto</h3></legend>
-
+                
+                <p>
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre">
-                <br>
+                </p>
 
+                <p>
                 <label for="mail">Correo Electrónico</label>
                 <input type="text" id="mail"  name="mail">
-                <br>
+                </p>
 
+                <p>
                 <label for="tel">Teléfono</label>
                 <input type="text" id="tel" name="tel">
-                <br>
+                </p>
             
             <!-- Menu desplegable-->    
+                <p>
                 <label for="pais">País</label>
                 <select id="pais" name="pais">
                     <option value="ar" Argentina>Argentina</option>
@@ -92,36 +96,27 @@
                     <option value="ch" Chile>Chile</option>
                     <option value="bl" Bolivia>Bolivia</option>
                 </select>
-                <br>
+                </p>
             <!--botones de radio-->
+                <p>
                   <label for="sector">Entidad</label>
                 
                   <input type="radio" name="sector" id= "publico" value="publico">Público
                   
                   <input type="radio" name="sector" id= "privado" value="privado">Privado
                 
-                  <br>
-
-             <!--check box-->
-                <label for="prod">Producto que te interesa</label>
-                    <input type="checkbox" name=prod id=vision value=vision> Visión
-                    <input type="checkbox" name=prod id=audicion value=audicion> Audición
-                    <input type="checkbox" name=prod id=psico value=psico> Psicométrico
-                    <input type="checkbox" name=prod id=compl value=compl> Equipo Completo
-
-                <br>      
+                </p>
 
             <!--mensaje--> 
-                
+                <p>
                 <label for=comm>Mensaje</label>
                 <textarea id=comm name=comm></textarea>
-
+                </p>
             </fieldset>
             
 
         </form>
 
-    
             <!--Botones-->
             <div> 
              <input class="buttonform" type="submit" value="Enviar"> 

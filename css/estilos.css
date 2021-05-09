@@ -203,8 +203,7 @@ footer {
   border-width: medium;
   display: inline;
   font-weight: 500;
-  line-height: 30px;
-  padding: 20px; }
+  line-height: 30px; }
 
 .tablet {
   color: cadetblue; }
@@ -332,7 +331,8 @@ footer {
   border: solid #79a6ee 2px;
   margin: 6px;
   padding: 10px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #026dca; }
 
 /*resaltador de texto con recuadro*/
 .marc {
