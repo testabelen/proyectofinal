@@ -1,0 +1,49 @@
+$parrafo:#026dca;
+$degrade: linear-gradient(to bottom, #403F4C, #908F91);
+$pgris: #908F91;
+
+body{
+    background-color: whitesmoke;
+}
+
+.headerstyle{
+    background-image: linear-gradient(to bottom, #403F4C, #908F91);
+}
+
+h1{
+    color: #79a6ee;
+}
+
+h2{
+    color: #21c1c7;
+}
+
+h3{
+    color:#79a6ee;
+}
+
+h4{
+    color: #6e8e86;
+}
+
+p{
+    color:#026dca;
+}
+
+.p__gray{
+    color: #908F91;
+}
+
+footer{
+    background-color:  #403F4C;
+    color: lightslategray;
+}
+
+.btable{
+    border-color:lightskyblue;
+}
+
+.tablet{
+    color:cadetblue;
+    
+}

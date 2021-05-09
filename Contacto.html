@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+    <head>
+        <meta charset="UTF - 8">
+            <title>Contáctenos</title>  
+            <!--google font-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+            <!--iconos-->
+            <script src="https://kit.fontawesome.com/99cb4ecb44.js" crossorigin="anonymous"></script>
+            <!--Viewport-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--CSS-->
+            <link rel="stylesheet" href="css/estilos.css">
+            <!--Seo-->
+            <meta name="keywords" content="mail, whatsapp, teléfono, licencia de conducir, gabinete psicométrico, examen teórico licencia de conducir, psicometría, test psicométricos">
+             <meta name="description" content="JT - Tecnología Aplicada te ofrece el gabinete psicosensométrico más completo del mercado, compuesto por pruebas sensométricas de visión y audición y psicométricas.">
+    </head>
+
+    <body>
+        <header class="headerstyle">
+            <img src="media/logo-JT_exp.png" alt="logoJT" class="imglogo">
+        </header> 
+        <nav class="menuhorizontal">
+            <ul>
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="Productos.html">PRODUCTOS</a></li>
+                <li><a href="Descargas.html">DESCARGAS</a></li>
+                <li><a href="Galeria.html" >GALERIA</a></li>
+                <li><a href="Certificaciones.html">CERTIFICACIONES</a></li>
+                <li><a href="Contacto.html">CONTACTO</a></li>
+            </ul>
+            
+        </nav>
+        
+        <input type="checkbox" class="barra__checkbox" id="check">
+        <label class="barra" for="check">*</label>
+           <div class="barra__panel">
+            <ul>
+              <li><a href="Index.html">INICIO</a></li>
+              <li><a href="Productos.html" >PRODUCTOS</a></li>
+              <li><a href="Descargas.html">DESCARGAS</a></li>
+              <li><a href="Galeria.html">GALERIA</a></li>
+              <li><a href="Certificaciones.html">CERTIF.</a></li>
+            </ul>
+           </div>
+
+        <section>
+
+        <h1 id="just">Estemos en contacto</h1>
+
+        <section class="padrecontact">
+
+        <h2> <i class="fas fa-at"></i> Vía Mail </h2>
+            <ul class="list__contacto">
+                 <li>gerenci@jttecnologiaaplicada.com</li>
+                <li>jtnorberto@gmail.com</li>
+                <li>jteugenia@gmail.com</li>
+            </ul>
+
+        <h2> <i class="fas fa-phone-alt"></i> Nuestros Teléfonos</h2>
+            <ul class="list__contacto">
+                <li>0358-154015046</li>
+                <li>0358-155481878</li>
+            </ul>
+        </section>
+        
+        <section class="padreform">
+            <!--empieza el form.-->
+        <form action= "#" method="GET" enctype="multipart/form-data"> 
+            <fieldset class="form">
+                <legend><h3><i class="fas fa-pen"></i>Formulario de Contacto</h3></legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <br>
+
+                <label for="mail">Correo Electrónico</label>
+                <input type="text" id="mail"  name="mail">
+                <br>
+
+                <label for="tel">Teléfono</label>
+                <input type="text" id="tel" name="tel">
+                <br>
+            
+            <!-- Menu desplegable-->    
+                <label for="pais">País</label>
+                <select id="pais" name="pais">
+                    <option value="ar" Argentina>Argentina</option>
+                    <option value="br" Brasil>Brasil</option>
+                    <option value="ch" Chile>Chile</option>
+                    <option value="bl" Bolivia>Bolivia</option>
+                </select>
+                <br>
+            <!--botones de radio-->
+                  <label for="sector">Entidad</label>
+                
+                  <input type="radio" name="sector" id= "publico" value="publico">Público
+                  
+                  <input type="radio" name="sector" id= "privado" value="privado">Privado
+                
+                  <br>
+
+             <!--check box-->
+                <label for="prod">Producto que te interesa</label>
+                    <input type="checkbox" name=prod id=vision value=vision> Visión
+                    <input type="checkbox" name=prod id=audicion value=audicion> Audición
+                    <input type="checkbox" name=prod id=psico value=psico> Psicométrico
+                    <input type="checkbox" name=prod id=compl value=compl> Equipo Completo
+
+                <br>      
+
+            <!--mensaje--> 
+                
+                <label for=comm>Mensaje</label>
+                <textarea id=comm name=comm></textarea>
+
+            </fieldset>
+            
+
+        </form>
+
+    
+            <!--Botones-->
+            <div> 
+             <input class="buttonform" type="submit" value="Enviar"> 
+              <input class="buttonform" type="reset"  value="Reset"> 
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=3584015046" 
+            class="buttonwpp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            </a>
+        
+        </section>
+        
+        <h4>Estamos disponibles para cualquier tipo de consulta, te responderemos a la brevedad</h4>
+    </section>
+    
+           
+
+    <footer> <!--footer-->
+        <h2>CONTACTO</h2>
+          <p class="p__grey">(0358) 154015046 | 155481878</p>
+          <p class="p__grey">gerencia@jttecnologiaaplicada.com | jtnorberto@gmail.com</p>
+          <p class="p__grey">Ruta Nacional 36, Berrotarán, Córdoba.</p> 
+
+        <p>Copyright (c) 2021. Todos los derechos reservados. Prohibida su reproducción total o parcial sin autorización. Dirección General de Defensa y Protección al Consumidor.  </p>
+    </footer>
+
+    
+    </body>
+
+
+</html>
