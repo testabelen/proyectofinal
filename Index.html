@@ -24,76 +24,81 @@
        <!--Encabezado-->
     <header class="headerstyle">
       <img src="media/logo-JT_exp.png" alt="logoJT" class="imglogo">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="banner"></div>
-            </div>
-        </div>
     </header> 
 
-          <!--Menú mobile-->
-                  <div class="container-fluid">
-                     <div class="row">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary" btn-block>Inicio</button>
-                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" btn-block>
-                              <span class="caret"></span> 
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="Productos.html">Productos</a>
-                              <a class="dropdown-item" href="Descargas.html">Descargas</a>
-                              <a class="dropdown-item" href="Galeria.html">Galería</a>
-                              <a class="dropdown-item" href="Certificaciones.html">Certificaciones</a>
-                              <a class="dropdown-item" href="Contacto.html">Contacto</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-        
-        
 
-                <nav class="menuini"> <!--Menú desktop-->
-                    <ul>
-                        <li><a href="Index.html">INICIO</a></li>
-                        <li><a href="Productos.html">PRODUCTOS</a></li>
-                        <li><a href="Descargas.html">DESCARGAS</a></li>
-                        <li><a href="Galeria.html" >GALERIA</a></li>
-                        <li><a href="Certificaciones.html">CERTIFICACIONES</a></li>
-                        <li><a href="Contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-                
-                <!--Carrusel boots-->
-                <div class="containerfluid">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Media/senal-transito-signovial.jpg" class="d-block w-100 imgcar" alt="Señal">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Media/anmato.jpg" class="d-block w-100 imgcar" alt="ANMAT">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Media/Ruta.jpg" class="d-block w-100 imgcar" alt="Ruta">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-  
+    <!--Menú boots-->
 
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #79a6ee;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item margin-btn" >
+              <a class="nav-link active" aria-current="page" href="Index.html">INICIO</a>
+            </li>
+            <li class="nav-item margin-btn" >
+              <a class="nav-link" href="Productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item margin-btn">
+              <a class="nav-link" href="Descargas.html">DESCARGA</a>
+            </li>
+            <li class="nav-item margin-btn">
+              <a class="nav-link" href="Galeria.html">GALERÍA</a>
+            </li>
+            <li class="nav-item margin-btn">
+              <a class="nav-link" href="Certificaciones.html">CERTIFICACIONES</a>
+            </li>
+            <li class="nav-item margin-btn">
+              <a class="nav-link" href="Contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>  <!--Carrusel boots-->
+     <div class="containerfluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Media/senal-transito-signovial.jpg" class="d-block w-100 imgcar" alt="Señal">
+            </div>
+            <div class="carousel-item">
+              <img src="Media/testvision.jpg" class="d-block w-100 imgcar" alt="Visión">
+            </div>
+            <div class="carousel-item">
+              <img src="Media/Ruta.jpg" class="d-block w-100 imgcar" alt="Ruta">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <section class="just"> <!--comentario-->
+        <h1>Bienvenidos a nuestra web</h1>
+
+       <p>Nuestros módulos sensométricos y psicométricos conforman un conjunto de intrumentos que permiten evaluar y determinar el grado de aptitud de cada conductor, revisando sus funciones psicotécnicas y sensomotrices en un tiempo acotado. </p>
+       
+      </section>
+    </section>
+
+
+               
         <section> <!-- cards-->
           <div class="container">
             <div class="row">
@@ -122,14 +127,9 @@
             </div>
             </div>
           </div>
-        </section> 
+        
 
-        <section class="lead"> <!--comentario-->
-          <h1>Bienvenidos a nuestra web</h1>
-
-         <p>Nuestros módulos sensométricos y psicométricos conforman un conjunto de intrumentos que permiten evaluar y determinar el grado de aptitud de cada conductor, revisando sus funciones psicotécnicas y sensomotrices en un tiempo acotado. </p>
-         
-        </section>
+        
 
         <!--botwpp-->
         

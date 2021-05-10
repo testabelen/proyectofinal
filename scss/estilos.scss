@@ -66,6 +66,10 @@ p{
     color: #908F91;
 }
 
+.just{
+    text-align: center;
+}
+
 
 footer{
     color:lightslategray;
@@ -81,7 +85,9 @@ footer{
     
 }
 
-
+#b__footer{
+    width: 60%;
+}
 
 /* padres */
 .padregal{
@@ -118,6 +124,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+
 /* tablas, listas y formularios */
 
 .btable{
@@ -176,8 +183,9 @@ footer{
     border-style: solid;
     border-width: medium;
     display: inline;
-    font-weight:500;
+    font-weight:400;
     line-height: 30px;
+    padding: 20px;
 }
 
 
@@ -186,12 +194,9 @@ footer{
     
 }
 
-.just{
-    text-align: center;
-}
 
 
-/*especiales*/
+/*Acordeón y Cards*/
 
 .acordeon input{
     display: none;
@@ -235,7 +240,7 @@ footer{
     max-width: 1000px;
     height: 230px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
@@ -270,45 +275,6 @@ footer{
     margin-top: 10px;
     text-align: center;
     font-size: 10px;
-}
-
-.banner{
-    width: 100%;
-    height: 90px;
-    border: 3px solid #908F91;
-    margin-top: 2px;
-    position: relative;
-    top: 110px;
-    background-size:cover;
-    grid-area: mybanner;
-    display: none;
-
-    animation-name: banner;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes banner {
-        0%, 30%{
-            background-image: url(media/señal.jpg);
-            opacity: 1;
-        }
-        31%, 34%{
-            opacity: 0.1;
-        }
-        35%, 65%{
-            background-image: url(media/Ruta.jpg);
-            opacity: 1;
-        }
-        66%, 69%{
-            opacity: 0.1;
-        }
-
-        70%, 100%{
-            background-image: url(media/testvision.jpg);
-            opacity: 1;
-        }
-        
 }
 
 
@@ -358,130 +324,14 @@ footer{
 
 
 
-/*MENUES*/
-/*Horizontal*/
-.menuhorizontal{
-    display: none;
-    background-color:oldlace;
-    width: 100%;
-    height: 50px;
+/*MENU*/
+
+.margin-btn{
+     margin-left: 30px !important;
+     border-right: #6a91d1 solid 2px;
+
 }
 
-.menuhorizontal a{
-    color:lightslategray;
-    text-decoration: none;
-}
-
-
-.menuhorizontal ul li{
-    display: inline;
-    background-color:oldlace;
-    text-align:center;
-    list-style: none;
-    font-size: 16px;
-    padding: 10px;
-    margin: 20px;
-    border-right: lightblue solid 2px;
-  
-}
-
-.menuhorizontal ul li:hover{
-    background-color:thistle;
-}
-
-
-/*Vertical*/
-
-.menuini{
-    background-color:oldlace;
-    width: 200px;
-    position: relative;
-    display: none;
-}
-
-
-
-.menuini a{
-    color:lightslategray;
-    text-decoration: none;
-}
-
-
-.menuini ul li{
-    background-color:oldlace;
-    text-align:left;
-    list-style: none;
-    font-size: 16px;
-    padding:20px;
-    margin: 0px;
-    border-bottom: lightblue solid 2px;
-    transition: all 2s;
-   
-}
-
-.menuini ul li:hover{
-    background-color:thistle;
-    width: 150px;
-    background-color:rgb(146, 221, 226);
-    padding: 30px;
-}
-
-/*Hambur*/
-.bmenu img{
-    width: 20px;
-    z-index: 100;
-    display: block;
-    transform: translateY(100px);
-    position: absolute;
-}
-.barra {
-    width: 25px;
-    height: 40px;
-    background: #026dca;
-    border-radius: 0.5rem;
-    position: absolute;
-    top: 10%;
-    right: 5%;
-    font-size: 25px;
-    color: slategrey;
-    text-align: center;
-    transition: left 0.7s; }
-  
-  .barra__checkbox:checked ~ .barra {
-    right: 20%;
-    border: 0 0.5rem 0.5rem 0; }
-  
-  .barra__panel {
-    width: 37%;
-    height: 20%;
-    background: #908F91;
-    position: absolute;
-    top: 17%;
-    right: -50%;
-    display: flex;
-    align-items:stretch;
-    justify-content: space-around;
-    transition: top 0.4s; }
-
-    .barra__panel a{
-        text-decoration: none;
-        color:whitesmoke;
-    }
-
-    .barra__panel ul li {
-      font-size: 10px;
-      letter-spacing: 4px; 
-      list-style-type: none;
-      line-height: 20px;
-        
-    }
-  
-  .barra__checkbox:checked ~ .barra__panel {
-    left: 0; }
-  
-  .barra__checkbox {
-    display: none; }
- 
 
 /*grids*/
 main{
@@ -519,44 +369,16 @@ main{
         ;
     }
 
-    .menuini{
-        background-color:oldlace;
-        width: 200px;
-        position: relative;
-        display: block;
-    }
-    .imglogo{
-        width: 350px;
-        margin-top: 50px;
-        transform: translateX(250%);
-    }
+    
     .headerstyle{
         height: 150px;
-    }
-
-    .banner{
-        width: 70%;
-        height: 380px;
-        border: 3px solid #908F91;
-        margin-top: 2px;
-        position: relative;
-        top: 70px;
-        transform: translateX(330px);
-        background-size:cover;
-        grid-area: mybanner;
-        display: block;
-    
-        animation-name: banner;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-    
     }
 
     .containercard{
         width: 100%;
         max-width: 1000px;
         height: 430px;
-        margin-top: 160px;
+        margin-top: 600px;
         margin-bottom: 40px;
         display: flex;
         justify-content: space-evenly;
@@ -593,13 +415,6 @@ main{
         font-size: 15px;
     }
     
-    .menuhorizontal{
-        display: inline;
-        position: relative;
-    }    
-    .bmenu img{
-        display: none;
-    }
 
     .imgal{
         width: 400px;
@@ -608,8 +423,27 @@ main{
         box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
         transition: 1s;
     }
+
+    .imglogo{
+        width: 350px;
+        margin-top: 50px;
+        transform: translateX(250%);
+    }
+
+    .imagen__producto{
+        width: 500px;
+        height: 500px;
+        margin-bottom: 25px;
+        padding-left:10px ;
+    }
+
+    .imgcar{
+        width: 100%;
+        height: 400px;
+    }
+
     .form{
-        transform: translate(520px, -370px);
+        transform: translate(520px, -320px);
     }
 
     .list__descarga{
@@ -617,7 +451,7 @@ main{
     }
 
     .buttonform{
-        transform: translate(520px, -370px);
+        transform: translate(520px, -320px);
     }
 
     .btable{
@@ -632,9 +466,6 @@ main{
         display: none;
     }
 
-    .carousel{
-        display: none;
-    }
     .padrearticle{
         display: flex;
         flex-direction: row;
@@ -642,20 +473,7 @@ main{
         justify-content: space-evenly;
         align-items: center;
     }
-    .imagen__producto{
-        width: 500px;
-        height: 500px;
-        margin-bottom: 25px;
-        padding-left:10px ;
-    }
-
-    .barra{
-        display: none;
-    }
-
-    .barra__panel{
-        display: none;
-    }
+   
 
     .footer__line{
         display: grid;
@@ -685,13 +503,6 @@ main{
         ;
     }
 
-    .barra{
-        display: none;
-    }
-
-    .barra__panel{
-        display: none;
-    }
 
 }
 
