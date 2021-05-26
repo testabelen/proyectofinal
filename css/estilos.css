@@ -60,6 +60,9 @@ footer {
   height: auto;
   margin-top: 25px; }
 
+.img__descarga {
+  width: 45%; }
+
 body {
   font-family: 'Cabin', sans-serif; }
 
@@ -145,11 +148,6 @@ footer {
   justify-content: space-around;
   align-items: stretch; }
 
-.padreform {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start; }
-
 .padrearticle {
   display: flex;
   flex-direction: column;
@@ -203,17 +201,21 @@ footer {
   margin-bottom: 20px;
   line-height: 40px; }
 
-.form {
-  border-color: #79a6ee;
-  border-style: solid;
-  border-width: medium;
-  display: inline;
-  font-weight: 400;
-  line-height: 30px;
-  padding: 20px; }
+.list__form {
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 2px;
+  line-height: 40px; }
 
 .tablet {
   color: cadetblue; }
+
+.contenedor__descarga {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px; }
 
 /*Acordeón y Cards*/
 .acordeon input {
@@ -302,13 +304,6 @@ footer {
   color: #0df053;
   background: #fff; }
 
-.buttonform {
-  border: solid #79a6ee 2px;
-  margin: 6px;
-  padding: 10px;
-  font-weight: 500;
-  color: #026dca; }
-
 /*resaltador de texto con recuadro*/
 .marc {
   border-radius: 10px;
@@ -390,12 +385,8 @@ main {
   .imgcar {
     width: 100%;
     height: 400px; }
-  .form {
-    transform: translate(520px, -320px); }
   .list__descarga {
     font-size: 20px; }
-  .buttonform {
-    transform: translate(520px, -320px); }
   .btable {
     display: block; }
   .shortable {

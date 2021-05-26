@@ -21,7 +21,9 @@
 
     <body>
         <header class="headerstyle">
-            <img src="media/logo-JT_exp.png" alt="logoJT" class="imglogo">
+          <a href="Index.html">
+            <img src="media/logo-JT_exp.png" alt="logoJT" class="imglogo"> 
+          </a>
         </header> 
         
          <!--Menú boots-->
@@ -78,62 +80,43 @@
             </ul>
         </section>
         
-        <section class="padreform">
-            <!--empieza el form.-->
-        <form action= "#" method="GET" enctype="multipart/form-data"> 
-            <fieldset class="form">
-                <legend><h3><i class="fas fa-pen"></i>Formulario de Contacto</h3></legend>
-                
-                <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre">
-                </p>
+        <section> <!--empieza el form.-->
+          <h2><i class="fas fa-pen"></i>Formulario de Contacto</h2>
+          <form action= "#" method="GET" enctype="multipart/form-data" class="container-fluid"> 
+          <div class="row">
+            <div class="col form-group">
+              <label class="list__form">Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col">
+              <label class="list__form">Teléfono</label>
+              <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono">
+            </div>
+          </div>
 
-                <p>
-                <label for="mail">Correo Electrónico</label>
-                <input type="text" id="mail"  name="mail">
-                </p>
+          
+          <div class="row">
+          <div class="col">
+            <label class="list__form">País</label>
+            <input type="text" class="form-control" placeholder="País" aria-label="País">
+          </div>
+          <div class="col">
+            <label class="list__form">Correo Electrónico</label>
+            <input type="email" class="form-control" placeholder="Correo Electrónico" aria-label="Email">
+          </div>
+        
 
-                <p>
-                <label for="tel">Teléfono</label>
-                <input type="text" id="tel" name="tel">
-                </p>
-            
-            <!-- Menu desplegable-->    
-                <p>
-                <label for="pais">País</label>
-                <select id="pais" name="pais">
-                    <option value="ar" Argentina>Argentina</option>
-                    <option value="br" Brasil>Brasil</option>
-                    <option value="ch" Chile>Chile</option>
-                    <option value="bl" Bolivia>Bolivia</option>
-                </select>
-                </p>
-            <!--botones de radio-->
-                <p>
-                  <label for="sector">Entidad</label>
-                
-                  <input type="radio" name="sector" id= "publico" value="publico">Público
-                  
-                  <input type="radio" name="sector" id= "privado" value="privado">Privado
-                
-                </p>
+        <div class="form-floating p-2">
+          <textarea class="form-control p-2" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea" class="list__form">Mensaje</label>
+        </div>
 
-            <!--mensaje--> 
-                <p>
-                <label for=comm>Mensaje</label>
-                <textarea id=comm name=comm></textarea>
-                </p>
-            </fieldset>
-            
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary mb-4" type="button">Enviar</button>
+            <button class="btn btn-primary mb-4" type="button">Borrar</button>
+          </div>
 
         </form>
-
-            <!--Botones-->
-            <div> 
-             <input class="buttonform" type="submit" value="Enviar"> 
-              <input class="buttonform" type="reset"  value="Reset"> 
-            </div>
 
             <a href="https://api.whatsapp.com/send?phone=3584015046" 
             class="buttonwpp" target="_blank">
