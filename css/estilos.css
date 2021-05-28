@@ -34,8 +34,9 @@ footer {
   color: cadetblue; }
 
 .imglogo {
-  width: 150px;
-  transform: translateY(250%); }
+  width: 200px;
+  transform: translateY(170%);
+  margin-left: 2%; }
 
 .imgini {
   width: 400px;
@@ -280,8 +281,9 @@ footer {
 
 .textc {
   margin-top: 10px;
-  text-align: center;
-  font-size: 10px; }
+  text-align: justify;
+  font-size: 10px;
+  padding: 0px 25px; }
 
 /*bottones*/
 .buttonwpp {
